@@ -12,13 +12,13 @@ public class Deck {
             }
         }
 		
-		int size = 52;	// Expected size of deck
-		int index1; // Create indexes for random generator
+	int size = 52;	// Expected size of deck
+	int index1; // Create indexes for random generator
         int index2; // Create indexes for random generator
         Random randomCards = new Random();
         Card temp;
 		
-		/* 100 pairs of cards are taken randomly, then they are switched 
+	/* 100 pairs of cards are taken randomly, then they are switched 
         shuffled into the deck */
         for (short i = 0; i < 100; i++) {
             index1 = randomCards.nextInt(size);
