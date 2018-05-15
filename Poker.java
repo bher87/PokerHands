@@ -10,7 +10,7 @@ public class Poker {
             Deck deck = new Deck();
             Hand hand = new Hand(deck);
             hand.showAllHands(); 		// Shows all the individual cards in the hand
-            hand.summaryOfHand(); 	// Shows the summary of the hand               
+            hand.summaryOfHand(); 	    // Shows the summary of the hand               
         }
     }
 }
