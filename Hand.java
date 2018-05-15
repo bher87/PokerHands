@@ -56,9 +56,9 @@ public class Hand {
             }
         }
 		
-		// The value of 1 = "Ace". If ace, then this statement is ran first.
+	// The value of 1 = "Ace". If ace, then this statement is ran first.
         if (ranks[1] == 1) { 
-        	// Then the value of 14 will represent the "Ace" as highest card
+            // Then the value of 14 will represent the "Ace" as highest card
             orderedRanks[index] = 14;
             index++;
         }
@@ -88,7 +88,7 @@ public class Hand {
         if (ranks[10] == 1 && ranks[11] == 1 && ranks[12] == 1 && 
             ranks[13] == 1 && ranks[1] == 1) { //ace high
         	
-        	// If it's higher than the "King"
+            // If it's higher than the "King"
             straight = true;
             topStraightValue = 14; 
         }
@@ -115,7 +115,7 @@ public class Hand {
             value[4] = orderedRanks[2];
         }
 		
-		// If Two Pairs
+	// If Two Pairs
         if (sameCards == 2 && sameCards2 == 2) { 
             value[0] = 3;
             //rank of greater pair
@@ -204,7 +204,7 @@ public class Hand {
         System.out.println(s);
     }
 	
-	// To display cards on hand.
+    // To display cards on hand.
     void showAllHands() {		
         System.out.println("Input: ");
         for (int i = 0; i < 5; i++)
