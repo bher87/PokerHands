@@ -13,8 +13,8 @@ public class Deck {
         }
 		
 	int size = 52;	// Expected size of deck
-	int index1; // Create indexes for random generator
-        int index2; // Create indexes for random generator
+	int index1; 	// Create indexes for random generator
+        int index2; 	// Create indexes for random generator
         Random randomCards = new Random();
         Card temp;
 		
